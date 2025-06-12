@@ -1,7 +1,6 @@
-using System;
 using System.Numerics;
 
-namespace Input.Abstractions;
+namespace Engine.Input.Abstractions;
 
 public class Vector2Action : InputAction<Vector2>, IVector2Action
 {

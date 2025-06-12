@@ -1,6 +1,4 @@
-using System;
-
-namespace Input.Abstractions;
+namespace Engine.Input.Abstractions;
 
 public class AxisAction : InputAction<float>, IAxisAction
 {

@@ -1,4 +1,4 @@
-namespace Input.Abstractions;
+namespace Engine.Input.Abstractions;
 
 public enum InputActionType
 {

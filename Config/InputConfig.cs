@@ -1,10 +1,8 @@
-using System.Collections.Generic;
+using Engine.Input.Abstractions;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
-using System.IO;
-using Input.Abstractions;
 
-namespace Input.Config;
+namespace Engine.Input.Config;
 
 public class InputConfig
 {

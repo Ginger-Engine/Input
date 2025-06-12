@@ -1,6 +1,4 @@
-using System;
-
-namespace Input.Abstractions;
+namespace Engine.Input.Abstractions;
 
 public class InputAction<T> : IInputAction<T>
 {
