@@ -2,6 +2,7 @@
 using Engine.Input.ActionIniter;
 using Engine.Input.Bindings;
 using Engine.Input.Config;
+using Engine.Input.PointerEvents;
 using GignerEngine.DiContainer;
 
 namespace Engine.Input;
@@ -16,6 +17,7 @@ public class InputBundle : IBundle
         builder.Bind<ConfigRootProvider>();
         builder.Bind<BindingTypeRegistry>().Eager();
         builder.Bind<IInputActionResolver>().From<ConfigActionResolver>().Eager();
+        builder.Bind<PointerInputManager>();
     }
 
     public void Configure(string c, IReadonlyDiContainer diContainer)
