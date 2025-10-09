@@ -2,6 +2,7 @@
 using Engine.Core;
 using Engine.Core.Behaviours;
 using Engine.Core.Entities;
+using Engine.Core.Exceptions;
 using Engine.Core.Scenes;
 using Engine.Core.Transform;
 using Engine.Rendering;
